@@ -16,4 +16,4 @@ jobs:
         run: |
           npm install -g htmlhint
           echo '{ "doctype-first": true, "tag-pair": true, "title-require": true, "attr-lowercase": true, "attr-value-double-quotes": true }' > .htmlhintrc
-          htmlhint index.html
+          htmlhint '**/*.html'
